@@ -54,6 +54,8 @@ partys = partyConsumer [(x,y) | x <- pars, y <- pars]
 
 partyConsumer :: [(Int,Int)]->[(Int,Int)]
 partyConsumer = filter isParty
+
+
 {-End Question 1.3-}
 
 -- any main functions for testing goes here
